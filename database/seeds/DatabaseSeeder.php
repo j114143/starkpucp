@@ -3,22 +3,18 @@
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
 
-class DatabaseSeeder extends Seeder
-{
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
-    public function run()
-    {
-        Model::unguard();
+class DatabaseSeeder extends Seeder {
 
-        // $this->call(UserTableSeeder::class);
+	/**
+	 * Run the database seeds.
+	 *
+	 * @return void
+	 */
+	public function run()
+	{
+		Model::unguard();
 
-        $post = factory('App\Post', 'active', 5)->create();
-        $post = factory('App\Post', 'inactive', 5)->create();
+		// $this->call('UserTableSeeder');
+	}
 
-        Model::reguard();
-    }
 }
