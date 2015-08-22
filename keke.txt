@@ -1,4 +1,7 @@
 LUISITO CANAL
 YO SOY SU PRIMER SUSCRIPTOR
 CANAL
+<<<<<<< HEAD
 zup dude
+=======
+>>>>>>> 1b8885d78e8cc26c37995baca6dc636c832d4d38
